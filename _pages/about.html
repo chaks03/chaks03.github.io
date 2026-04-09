@@ -1,20 +1,14 @@
 ---
 permalink: /
-title: "Blog Posts"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
-  - /year-archive/
 ---
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>Hi, I'm Chaks. I work at the intersection of AI & Trading Infrastructure, Observability, and Developer Tooling Automation. I love writing code, and managing transaction and quant systems has taught me a strong sense with numbers. My goal is to build reliable, scalable systems that bridge intelligent automation with real-world engineering workflows.</p>
+
+<p>Whether it's heads-down solo mode, jamming with peers on a shared problem, or steering the ship as a team lead, I've done all three and enjoy switching hats. A few years of management experience taught me that the best systems are built by people who actually talk to each other.</p>
+
+<p>When I'm not wrangling infrastructure, you'll probably find me underwater, on a trail, or behind the wheel going somewhere new.</p>
