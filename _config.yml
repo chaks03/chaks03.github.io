@@ -29,7 +29,7 @@ author:
   bio              : "SRE focused on trading infrastructure and AI development lifecycle"
   location         : "Cyberjaya, Malaysia"
   employer         : "Jahangirnagar University"
-  uri              : "shudarshon.github.io"
+  #uri              : ""
   email            : "shudarshon@deriv.com" 
 
   # Academic websites
